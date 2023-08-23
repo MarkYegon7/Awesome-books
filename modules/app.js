@@ -1,17 +1,17 @@
 import BookCollection from './bookCollection.js';
-import displayBook from './display.js';
 import time from './liveTime.js';
 
 const addBook = document.querySelector('#addBook');
 const bookTitle = document.querySelector('#bookTitle');
 const bookAuthor = document.querySelector('#authorName');
+const book = new BookCollection();
 
 addBook.addEventListener('click', (e) => {
   e.preventDefault();
-  const newbook = new BookCollection();
 
   if (bookTitle.value.trim() !== '' && bookAuthor.value.trim() !== '') {
-    newbook.setNewBook();
+    const book = new BookCollection();
+    book.setNewBook();
   }
 
   bookTitle.value = '';
@@ -26,7 +26,7 @@ addBook.addEventListener('click', (e) => {
   });
 });
 
-displayBook();
+book.displayBook();
 
 const list = document.getElementById('list');
 const formContainer = document.getElementById('formContainer');
