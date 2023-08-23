@@ -206,6 +206,7 @@ Thank you,
 
 
 ## 📝 License <a name="license"></a>
+This project is [MIT]() licensed.
 
 This project is under [MIT](./LICENSE) licensed.
 
