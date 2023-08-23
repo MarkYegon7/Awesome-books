@@ -1,5 +1,5 @@
 import BookCollection from './bookCollection.js';
-import { displayBook } from './display.js';
+import displayBook from './display.js';
 import time from './liveTime.js';
 
 const addBook = document.querySelector('#addBook');

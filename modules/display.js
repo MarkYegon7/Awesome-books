@@ -2,7 +2,7 @@ import BookCollection from './bookCollection.js';
 
 const bookList = document.querySelector('#bookList');
 
-export const displayBook = () => {
+const displayBook = () => {
   bookList.innerHTML = '';
   const newbook = new BookCollection();
   newbook.bookArr.forEach((book) => {
@@ -34,7 +34,11 @@ export const displayBook = () => {
     bookList.appendChild(bookCard);
   });
 
-  bookList.innerHTML === ''
-    ? bookList.classList.add('hide-book-list')
-    : bookList.classList.remove('hide-book-list');
+  if (bookList.innerHTML === '') {
+    bookList.classList.add('hide-book-list');
+  } else {
+    bookList.classList.remove('hide-book-list');
+  }
 };
+
+export default displayBook;
