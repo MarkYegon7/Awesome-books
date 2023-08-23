@@ -1,4 +1,4 @@
-import { DateTime } from './luxon.min.js';
+import { DateTime } from '../dist/luxon.min.js';
 
 const showLiveTime = () => {
   const displayDateTime = document.getElementById('dateTime');
