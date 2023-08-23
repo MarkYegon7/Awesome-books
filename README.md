@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="/assets/imgs/bookstore-logo.png" alt="logo"  height="300px" />
   <br/>
     <h1 style="font-size: 72px; font-weight: 900;"><b> Awesome Books </b></h1>
     <h2>Book List Editor</h2>
@@ -206,9 +205,8 @@ Thank you,
 
 
 ## 📝 License <a name="license"></a>
-This project is [MIT](https://github.com/MarkYegon7/Awesome-books/blob/c0ec5dd7e521ecfe4b635981f779fffc3cac1a08/LICENSE.md) licensed.
 
-This project is under [MIT](./LICENSE) licensed.
+This project is under [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
