@@ -206,7 +206,7 @@ Thank you,
 
 
 ## 📝 License <a name="license"></a>
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/MarkYegon7/Awesome-books/blob/c0ec5dd7e521ecfe4b635981f779fffc3cac1a08/LICENSE.md) licensed.
 
 This project is under [MIT](./LICENSE) licensed.
 
